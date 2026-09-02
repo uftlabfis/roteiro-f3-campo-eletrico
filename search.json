@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Campo Elétrico entre placas paralelas",
+    "section": "",
+    "text": "No século XIX, Michael Faraday introduziu o conceito de linhas de força para explicar o efeito produzido por uma carga eletrizada no espaço ao seu redor. Apesar de imaginárias, tais linhas, hoje denominadas linhas de campo elétrico, ajudam a compreender o comportamento dos campos elétricos Halliday; Resnick; Walker (2016).\n\n\n\nFigura 1\n\n\n\n\nCampo elétrico entre duas placas paralelas\n\n\n\n\nFonte: Labfis (2026)\n\n\n\n\nComo ilustrado na Figura 1, as linhas de campo sempre começam nas cargas positivas e terminam nas cargas negativas. Por outro lado, a cada ponto do espaço, a uma distância \\(d\\) de um dos eletrodos, também esta associado um potencial elétrico \\(V\\), definido de modo que a diferença de potencial entre dois pontos é:\n\\[\n  V = - \\int_0^d \\vec{E} \\cdot d \\vec{s}\n\\tag{1}\\]\nConsiderando o caso especial em que o campo elétrico é constante, resolvendo a integral da Equação 1, tem-se:\n\\[\\begin{align*}\n  V = - \\int_0^d \\vec{E} \\cdot d \\vec{s} &\\Rightarrow V = - \\int_0^d (- E d s)\\\\\n  &\\Rightarrow V = E \\int_0^d d s \\\\\n  &\\Rightarrow V = E d\n\\end{align*}\\]\nIsolando o campo elétrico \\(E\\), temos:\n\\[\n  E = \\dfrac{V}{d}\n\\tag{2}\\]\nA Equação 2 mostra que no caso do campo elétrico gerado por eletrodos paralelos, a diferença de potencial \\(V\\) em um ponto é proporcional à distância \\(d\\) entre as placas.\n\n\n\nFigura 2\n\n\n\n\nGráfico de \\(V \\times d\\)\n\n\n\n\nFonte: Labfis (2026)\n\n\n\n\nA relação \\(V \\times d\\) é dada por uma reta passando pela origem e cujo coeficiente angular pode ser utilizado para estimar experimentalmente o campo elétrico entre as placas, conforme Figura 3:\n\\[\n  E_{exp} = \\dfrac{V_2 - V_1}{d_2 - d_1}\n\\tag{3}\\]"
+  },
+  {
+    "objectID": "index.html#introdução",
+    "href": "index.html#introdução",
+    "title": "Campo Elétrico entre placas paralelas",
+    "section": "",
+    "text": "No século XIX, Michael Faraday introduziu o conceito de linhas de força para explicar o efeito produzido por uma carga eletrizada no espaço ao seu redor. Apesar de imaginárias, tais linhas, hoje denominadas linhas de campo elétrico, ajudam a compreender o comportamento dos campos elétricos Halliday; Resnick; Walker (2016).\n\n\n\nFigura 1\n\n\n\n\nCampo elétrico entre duas placas paralelas\n\n\n\n\nFonte: Labfis (2026)\n\n\n\n\nComo ilustrado na Figura 1, as linhas de campo sempre começam nas cargas positivas e terminam nas cargas negativas. Por outro lado, a cada ponto do espaço, a uma distância \\(d\\) de um dos eletrodos, também esta associado um potencial elétrico \\(V\\), definido de modo que a diferença de potencial entre dois pontos é:\n\\[\n  V = - \\int_0^d \\vec{E} \\cdot d \\vec{s}\n\\tag{1}\\]\nConsiderando o caso especial em que o campo elétrico é constante, resolvendo a integral da Equação 1, tem-se:\n\\[\\begin{align*}\n  V = - \\int_0^d \\vec{E} \\cdot d \\vec{s} &\\Rightarrow V = - \\int_0^d (- E d s)\\\\\n  &\\Rightarrow V = E \\int_0^d d s \\\\\n  &\\Rightarrow V = E d\n\\end{align*}\\]\nIsolando o campo elétrico \\(E\\), temos:\n\\[\n  E = \\dfrac{V}{d}\n\\tag{2}\\]\nA Equação 2 mostra que no caso do campo elétrico gerado por eletrodos paralelos, a diferença de potencial \\(V\\) em um ponto é proporcional à distância \\(d\\) entre as placas.\n\n\n\nFigura 2\n\n\n\n\nGráfico de \\(V \\times d\\)\n\n\n\n\nFonte: Labfis (2026)\n\n\n\n\nA relação \\(V \\times d\\) é dada por uma reta passando pela origem e cujo coeficiente angular pode ser utilizado para estimar experimentalmente o campo elétrico entre as placas, conforme Figura 3:\n\\[\n  E_{exp} = \\dfrac{V_2 - V_1}{d_2 - d_1}\n\\tag{3}\\]"
+  },
+  {
+    "objectID": "index.html#objetivos",
+    "href": "index.html#objetivos",
+    "title": "Campo Elétrico entre placas paralelas",
+    "section": "Objetivos",
+    "text": "Objetivos\n\ndeterminar o campo elétrico entre duas placas paralelas."
+  },
+  {
+    "objectID": "index.html#material-necessário",
+    "href": "index.html#material-necessário",
+    "title": "Campo Elétrico entre placas paralelas",
+    "section": "Material Necessário",
+    "text": "Material Necessário\n\n\n\nFigura 3\n\n\n\n\nAparato experimental\n\n\n\n\nFonte: Labfis (2026)\n\n\n\n\n\numa cuba com escala projetável comporta por dois eletrodos retos e conexões de fios;\numa ponteira para tomada de dados;\numa fonte de alimentação VCC com tensão de saída entre 0 V e 30 V;\num multímetro ajustado para voltímetro escala de 20 V CC;\nmistura de água e sal."
+  },
+  {
+    "objectID": "index.html#referências",
+    "href": "index.html#referências",
+    "title": "Campo Elétrico entre placas paralelas",
+    "section": "Referências",
+    "text": "Referências\n\n\nHALLIDAY, D.; RESNICK, R.; WALKER, J. Fundamentos de Física: Eletromagnetismo. 10. ed. Rio de Janeiro: LTC, 2016. v. 3"
+  }
+]
