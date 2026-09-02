@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Equipe técnica do Laboratório de Física">
+<meta name="author" content="Laboratório de Física">
 
-<title>Título do Roteiro</title>
+<title>Campo Elétrico entre placas paralelas</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -135,13 +135,13 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <div class="quarto-other-links"><h2>Baixar Material</h2><ul><li><a href="titulo-do-roteiro.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Roteiro do Experimento</a></li><li><a href="https://raw.githubusercontent.com/uftlabfis/uftlabfis-uftlabfis-roteiros/main/instrumentacao/papel-milimetrado-18x22.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Papel milimetrado</a></li><li><a href="https://uftlabfis.pythonanywhere.com/file/02_mruv_v2020_01.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Outro roteiro</a></li></ul></div></div>
+    <div class="quarto-other-links"><h2>Baixar Material</h2><ul><li><a href="campo-eletrico.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Roteiro do Experimento</a></li><li><a href="https://raw.githubusercontent.com/uftlabfis/uftlabfis-uftlabfis-roteiros/main/instrumentacao/papel-milimetrado-18x22.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Papel milimetrado</a></li><li><a href="assets/documents/campo-eletrico-prof-heverton.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Roteiro do prof. Heverton</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Título do Roteiro</h1>
+<h1 class="title">Campo Elétrico entre placas paralelas</h1>
 </div>
 
 
@@ -150,7 +150,7 @@ window.Quarto = {
   <div class="quarto-title-meta-heading">Afiliação</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Equipe técnica do Laboratório de Física <a href="mailto:labfis.cup@uft.edu.br" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+    <p class="author">Laboratório de Física <a href="mailto:labfis.cup@uft.edu.br" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -165,7 +165,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Última atualização</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">28 de agosto de 2026</p>
+      <p class="date">2 de setembro de 2026</p>
     </div>
   </div>
   
@@ -179,50 +179,102 @@ window.Quarto = {
 
 <section id="introdução" class="level2">
 <h2 data-anchor-id="introdução">Introdução</h2>
-<p>Apresente brevemente os conceitos físicos relacionados à atividade, destacando os princípios e fenômenos que serão investigados. Contextualize o experimento e sua relevância para a compreensão do conteúdo, podendo incluir as principais equações ou relações teóricas necessárias à análise dos resultados. O parágrafo seguinte mostra um exemplo.</p>
-<p>Conforme <span class="citation" data-cites="Halliday1">Halliday; Resnick; Walker (<a href="#ref-Halliday1" role="doc-biblioref">2016</a>)</span>, <em>energia cinética</em> é a energia associada ao movimento de um corpo. Quando uma força resultante realiza trabalho sobre um corpo, sua velocidade pode ser alterada e, consequentemente, sua energia cinética também se modifica. Essa relação é expressa pelo teorema trabalho–energia cinética, segundo o qual o trabalho realizado pela força resultante sobre um corpo é igual à variação de sua energia cinética. Para um corpo de massa (<span class="math inline">\(m\)</span>) que se move com velocidade (<span class="math inline">\(v\)</span>), a energia cinética é dada por</p>
-<p><span class="math display">\[
-K = \dfrac{1}{2} m v^2
-\]</span></p>
-<p>Utilize imagens para complementar a explicação dos conceitos e procedimentos, priorizando esquemas, diagramas e fotografias que facilitem a compreensão do experimento. Toda imagem deve apresentar legenda e, quando necessário, identificar seus principais elementos. No texto, referencie a imagem utilizada.</p>
-<p>Por exemplo, a <a href="#fig-labfis-logo" class="quarto-xref">Figura&nbsp;1</a> mostra o logo do Laboratório de Física.</p>
-<div id="fig-labfis-logo" class="quarto-float quarto-figure quarto-figure-center">
+<p>No século XIX, Michael Faraday introduziu o conceito de <em>linhas de força</em> para explicar o efeito produzido por uma carga eletrizada no espaço ao seu redor. Apesar de imaginárias, tais linhas, hoje denominadas <em>linhas de campo elétrico</em>, ajudam a compreender o comportamento dos campos elétricos <span class="citation" data-cites="Halliday3">(<a href="#ref-Halliday3" role="doc-biblioref">Halliday; Resnick; Walker, 2016</a>)</span>.</p>
+<div id="fig-campo-eletrico" class="quarto-float quarto-figure quarto-figure-center">
 <figure class="quarto-float quarto-float-fig figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-labfis-logo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;1: Logo do Labfis
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-campo-eletrico-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1
 </figcaption>
-<div aria-describedby="fig-labfis-logo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/labfis-logo-transparente.png" class="img-fluid figure-img" style="width:50.0%">
+<div aria-describedby="fig-campo-eletrico-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption>Campo elétrico entre duas placas paralelas</figcaption>
+<p><img src="assets/images/typst/linhas-campo-eletrico.svg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div style="text-align: center; font-size: smaller">
+<p><strong>Fonte:</strong> Labfis (2026)</p>
+</div>
 </div>
 </figure>
 </div>
+<p>Como ilustrado na <a href="#fig-campo-eletrico" class="quarto-xref">Figura&nbsp;1</a>, as linhas de campo sempre <em>começam</em> nas cargas positivas e <em>terminam</em> nas cargas negativas. Por outro lado, a cada ponto do espaço, a uma distância <span class="math inline">\(d\)</span> de um dos eletrodos, também esta associado um potencial elétrico <span class="math inline">\(V\)</span>, definido de modo que a diferença de potencial entre dois pontos é:</p>
+<p><span id="eq-campo-eletrico"><span class="math display">\[
+  V = - \int_0^d \vec{E} \cdot d \vec{s}
+\tag{1}\]</span></span></p>
+<p>Considerando o caso especial em que o campo elétrico é constante, resolvendo a integral da <a href="#eq-campo-eletrico" class="quarto-xref">Equação&nbsp;1</a>, tem-se:</p>
+<p><span class="math display">\[\begin{align*}
+  V = - \int_0^d \vec{E} \cdot d \vec{s} &amp;\Rightarrow V = - \int_0^d (- E d s)\\
+  &amp;\Rightarrow V = E \int_0^d d s \\
+  &amp;\Rightarrow V = E d
+\end{align*}\]</span></p>
+<p>Isolando o campo elétrico <span class="math inline">\(E\)</span>, temos:</p>
+<p><span id="eq-campo-eletrico-constante"><span class="math display">\[
+  E = \dfrac{V}{d}
+\tag{2}\]</span></span></p>
+<p>A <a href="#eq-campo-eletrico-constante" class="quarto-xref">Equação&nbsp;2</a> mostra que no caso do campo elétrico gerado por eletrodos paralelos, a diferença de potencial <span class="math inline">\(V\)</span> em um ponto é <em>proporcional</em> à distância <span class="math inline">\(d\)</span> entre as placas.</p>
+<div id="fig-grafico-potencial-vs-distancia" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-grafico-potencial-vs-distancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;2
+</figcaption>
+<div aria-describedby="fig-grafico-potencial-vs-distancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption>Gráfico de <span class="math inline">\(V \times d\)</span></figcaption>
+<p><img src="assets/images/typst/grafico-potencial-vs-distancia.svg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div style="text-align: center; font-size: smaller">
+<p><strong>Fonte:</strong> Labfis (2026)</p>
+</div>
+</div>
+</figure>
+</div>
+<p>A relação <span class="math inline">\(V \times d\)</span> é dada por uma reta passando pela origem e cujo coeficiente angular pode ser utilizado para estimar experimentalmente o campo elétrico entre as placas, conforme <a href="#fig-grafico-potencial-vs-distancia" class="quarto-xref">Figura&nbsp;3</a>:</p>
+<p><span id="eq-campo-eletrico-exp"><span class="math display">\[
+  E_{exp} = \dfrac{V_2 - V_1}{d_2 - d_1}
+\tag{3}\]</span></span></p>
 </section>
 <section id="objetivos" class="level2">
 <h2 data-anchor-id="objetivos">Objetivos</h2>
-<p>Apresente de forma clara e objetiva o que se pretende alcançar com a atividade experimental, utilizando verbos de ação como</p>
 <ol type="1">
-<li>Investigar</li>
-<li>Analisar</li>
-<li>Determinar</li>
-<li>Verificar</li>
-<li>Compreender</li>
+<li>determinar o campo elétrico entre duas placas paralelas.</li>
 </ol>
 </section>
 <section id="material-necessário" class="level2">
-<h2 data-anchor-id="material-necessário">Material necessário</h2>
-<p>Liste todos os materiais, equipamentos e instrumentos que serão utilizados na atividade experimental, de forma organizada e objetiva.</p>
+<h2 data-anchor-id="material-necessário">Material Necessário</h2>
+<div id="fig-grafico-potencial-vs-distancia" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-grafico-potencial-vs-distancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;3
+</figcaption>
+<div aria-describedby="fig-grafico-potencial-vs-distancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption>Aparato experimental</figcaption>
+<p><img src="assets/images/aparato-campo-eletrico.png" class="img-fluid figure-img" style="width:55.0%"></p>
+</figure>
+</div>
+<div style="text-align: center; font-size: smaller">
+<p><strong>Fonte:</strong> Labfis (2026)</p>
+</div>
+</div>
+</figure>
+</div>
 <ul>
-<li>Balança;</li>
-<li>Cronômetro;</li>
-<li>Paquímetro;</li>
-<li>Trilho de baixo atrito.</li>
+<li>uma cuba com escala projetável comporta por dois eletrodos retos e conexões de fios;</li>
+<li>uma ponteira para tomada de dados;</li>
+<li>uma fonte de alimentação VCC com tensão de saída entre 0 V e 30 V;</li>
+<li>um multímetro ajustado para voltímetro escala de 20 V CC;</li>
+<li>mistura de água e sal.</li>
 </ul>
 </section>
 <section id="referências" class="level2">
 <h2 data-anchor-id="referências">Referências</h2>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list">
-<div id="ref-Halliday1" class="csl-entry" role="listitem">
-HALLIDAY, D.; RESNICK, R.; WALKER, J. <strong>Fundamentos de Física: Mecânica</strong>. 10. ed. Rio de Janeiro: LTC, 2016. v. 1
+<div id="ref-Halliday3" class="csl-entry" role="listitem">
+HALLIDAY, D.; RESNICK, R.; WALKER, J. <strong>Fundamentos de Física: Eletromagnetismo</strong>. 10. ed. Rio de Janeiro: LTC, 2016. v. 3
 </div>
 </div>
 
@@ -296,7 +348,7 @@ HALLIDAY, D.; RESNICK, R.; WALKER, J. <strong>Fundamentos de Física: Mecânica<
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/costandrad\.github\.io\/uftlabfis-roteiro-web-template\/");
+        var filterRegex = new RegExp("https:\/\/uftlabfis\.github\.io\/roteiro-f3-campo-eletrico\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
